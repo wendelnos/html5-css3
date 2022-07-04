@@ -1,9 +1,10 @@
 body {
     background: #676767;
+    font-family: Verdana;
 }
 
 #title, .subtitle, .post_title{
-    color: blue;
+    color: #505050;
 }
 
 
@@ -14,7 +15,7 @@ body {
     margin-bottom : 15px;
 }
 
-.post{
+.post {
     background : #FFF;
     padding: 10px;
     border: 3px solid #505050;
@@ -23,15 +24,26 @@ body {
 
 }
 
-.post_contet{
-    margin: 0;
-    margin-bottom: 15px
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
-.post_image{
+a {
+    text-decoration: line-through;
+    color: #505050;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.post_image {
     margin-bottom: 15px;
 }
-.foto{
-    border : 1 px solid #505050;
+.foto {
+    border : 1px solid #505050;
     border-radius: 50%;
 }
