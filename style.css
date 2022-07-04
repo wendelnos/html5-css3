@@ -1,6 +1,8 @@
 body {
     background: #676767;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 #title, .subtitle, .post_title{
@@ -38,6 +40,8 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    width: 100%;
+    text-align: justify;
 }
 
 .post_image {
@@ -46,4 +50,13 @@ a {
 .foto {
     border : 1px solid #505050;
     border-radius: 50%;
+}
+.contact_list{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contact_list li a {
+    color: blue;
+    text-decoration: none;
 }
